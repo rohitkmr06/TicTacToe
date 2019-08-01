@@ -79,9 +79,9 @@ public class TicTacToe
 			{
 				System.out.println("Player 1 Enter the box number");
 				printBox(ticbox);
-				Scanner sc = new Scanner(System.in);
-				int a1 = sc.nextInt();
-				int a2 = sc.nextInt();
+				Scanner s = new Scanner(System.in);
+				int a1 = s.nextInt();
+				int a2 = s.nextInt();
 				boolean valid = validate(a1,a2,ticbox);
 				if(valid) 
 				{
